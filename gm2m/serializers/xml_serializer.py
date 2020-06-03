@@ -1,6 +1,6 @@
 from django.core.serializers import xml_serializer
 from django.utils.encoding import smart_text
-from django.utils import six
+import six
 
 from ..fields import GM2MField
 from ..contenttypes import ct, get_content_type
